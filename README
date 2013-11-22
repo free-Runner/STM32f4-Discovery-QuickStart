@@ -1,3 +1,0 @@
-This project is based on jeremyherbert's stm32-templates, found at https://github.com/jeremyherbert/stm32-templates.
-
-This files here are only relevant to the stm32f4-discovery board and include the CMSIS library configured to be built along side main.c. The goal is to have a simple quickstart with the stm32f4 board on a Linux machine.
