@@ -44,3 +44,15 @@ This will write the bin image in the correct place in memory to be executed by t
 $ sudo ./st-flash read main.bin 0x80000000 2048
 ```
 The command is reading 2048 bytes from the beginning of the program.
+
+##### Option 3:
+Configure STLINK path in makefile provided and run the following command:
+```
+$ make burn
+```
+This option will simply perform Option 2 automatically by writing to the device.
+
+##### Option 4 (GUI based):
+Download and use [QSTLINK2](https://code.google.com/p/qstlink2/)
+
+This tool provides a nice GUI interface to interact with the board.
